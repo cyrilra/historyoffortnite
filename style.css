@@ -19,7 +19,9 @@ p {
   padding: 1em;
   color: red;
 }
-
+#gamemodes {
+  margin-left: 10px;
+}
 #gamemodes ul {
   list-style-type: none;
   margin: 0;
@@ -28,6 +30,7 @@ p {
 
 #gamemodes li {
     display: inline;
+    color: red;
 }
 #gamemodes img {
   margin-left: 50px;
@@ -35,4 +38,33 @@ p {
 }
 img {
   width: 200px;
+}
+
+.container {
+  position: relative;
+  display: inline;
+}
+.centered {
+  position: absolute;
+  bottom: 25px;
+  right: 45px ;
+  transform: translate(-50%, -50%);
+  color: red;
+  font-size: 20px;
+}
+.centered-2 {
+  position: absolute;
+  bottom: 25px;
+  right: 10px ;
+  transform: translate(-50%, -50%);
+  color: red;
+  font-size: 20px;
+}
+.centered-3 {
+  position: absolute;
+  bottom: 25px;
+  right: 25px ;
+  transform: translate(-50%, -50%);
+  color: red;
+  font-size: 20px;
 }
